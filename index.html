@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practica 3.4</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        
+        function funcion_nombre() {
+            var nom =  document.getElementById ("name").value;
+            var cognom = document.getElementById ("subname").value;
+            alert ('Benvingut ' + nom + cognom);
+        }
+    </script>
+        
+        <h1>Evento function</h1>
+        
+        Introdueix el teu nom: <input type="text" id="name" >
+        i cognom: <input type="text" id="subname" onchange="funcion_nombre()">
+</body>
+</html>
